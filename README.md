@@ -1,0 +1,1 @@
+This repository will contain small projects developed for HTML, CSS and JavaScript practice
