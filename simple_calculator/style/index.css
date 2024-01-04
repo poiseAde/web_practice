@@ -14,24 +14,56 @@
   width: 400px;
   height: 640px;
   margin: auto;
-  /* margin-top: 300px; */
+  margin-top: 200px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(3, auto) repeat(5, 100px);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  overflow: hidden;
 }
 
 .display {
   height: 70px;
   grid-column: span 4;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+
+.display1 {
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .input {
   background: none;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
+  justify-self: center;
+  align-self: center;
+  background-color: black;
+  border: 1px solid white;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  box-shadow: 2px 2px 7px #888888;
+  font-size: 22px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 .num0 {
   grid-column: span 2;
-  width: 200px;
+  width: 190px;
 }
